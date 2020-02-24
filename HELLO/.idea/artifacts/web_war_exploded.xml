@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HELLO/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HELLO" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.17" />
+          <element id="library" level="project" name="protobuf-java-3.6.1" />
+          <element id="library" level="project" name="com.github.spt-oss:mysql-connector-java-plus:0.1.0" />
+        </element>
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-8.0.17" />
+      <element id="library" level="project" name="com.github.spt-oss:mysql-connector-java-plus:0.1.0" />
+    </root>
+  </artifact>
+</component>
